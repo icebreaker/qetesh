@@ -2,7 +2,7 @@ Qetesh
 ======
 Qetesh is a Hieroglyphic Editor.
 
-![](https://raw.github.com/icebreaker/kruto.js/master/images/qetesh.png)
+![](https://raw.github.com/icebreaker/qetesh/master/images/qetesh.png)
 
 You should consider it *alpha quality*; take everything with a grain of salt and
 pepper for that matter.
