@@ -12,7 +12,7 @@ pepper for that matter.
 Qetesh doesn't use a database and stores everything on the client side using 
 local storage.
 
-Try it out [Qetesh](http://szabster.net/qetesh).
+Play with [Qetesh](http://szabster.net/qetesh).
 
 There's no place like 127.0.0.1
 -------------------------------
