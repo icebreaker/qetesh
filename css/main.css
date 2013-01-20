@@ -1,0 +1,199 @@
+@font-face
+{  
+	font-family: "Hieroglyphs";  
+	src: url( "../fonts/EGYPT0__.TTF" ) format("truetype");
+}
+
+::selection { background: transparent;  }
+::-moz-selection { background: transparent;  }
+
+body
+{
+	font-family: Arial;
+	background-color: #eee;
+	color: #333;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.message
+{
+	display: none;
+	position: fixed;
+	width: 10em;
+	padding: 0.5em;
+	background: #333;
+	color: #fff;
+	z-index: 1;
+	top: 0;
+	left: 50%;
+	margin-left: -10em;
+	font-size: 1em;
+	text-align: center;
+}
+
+.branding
+{
+	margin: 15px;
+	margin-right: 0;
+	font-weight: bolder;
+	font-size: 18px;
+	float: left;
+}
+
+.navbar
+{
+	margin: 15px;
+	font-size: 18px;
+	float: left;
+}
+
+.workspace
+{
+
+}
+
+.glyphs
+{
+	text-align: center;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: fixed;
+	padding: 5px;
+	width: 13%;
+	height: 60%;
+	left: 15px;
+	background-color: #ccc;
+	z-index: 1;
+	border: 2px solid #333;
+}
+
+.saves
+{
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	position: fixed;
+	padding: 5px;
+	width: 30%;
+	height: 60%;
+	left: 15px;
+	background-color: #ccc;
+	z-index: 2;
+	border: 2px solid #333;
+}
+
+.container
+{
+	height: 100%;
+	overflow: auto;
+}
+
+.tablet
+{
+}
+
+.hidden
+{
+	display: none !important;
+}
+
+.clr
+{
+	clear:both;
+}
+
+a.button,
+a.button:active,
+a.button:visited
+{
+	display: inline;
+	padding: 8px;
+	background-color: #ccc;
+	color: #333;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+a.button:hover,
+a.button.selected
+{
+	background-color: #333;
+	color: #ccc;
+	text-decoration: none;
+}
+
+a.glyph,
+a.glyph:active,
+a.glyph:visited,
+a.save,
+a.save:active,
+a.save:visited
+{
+	font-family: Hieroglyphs;
+	font-size: 64px;
+	display: block;
+	padding: 8px;
+	margin-right: 6px;
+	background-color: #ccc;
+	color: #333;
+	text-decoration: none;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+a.save,
+a.save:active,
+a.save:visited
+{
+	font-family: Arial;  
+	font-size: 16px;
+}
+
+a.glyph:hover,
+a.glyph.selected,
+a.save:hover,
+a.save.selected
+{
+	background-color: #333;
+	color: #ccc;
+	text-decoration: none;
+}
+
+::-webkit-scrollbar 
+{
+	width: 10px;
+	height: 9px;
+}
+
+::-webkit-scrollbar-button:start:decrement, 
+::-webkit-scrollbar-button:end:increment 
+{
+	display: block;
+	height: 0;
+	background-color: transparent;
+}
+
+::-webkit-scrollbar-track-piece 
+{
+	-webkit-border-radius: 0;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:vertical
+{
+	height: 50px;
+	background-color: #333;
+	-webkit-border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:horizontal
+{
+	width: 50px;
+	background-color: #333;
+	-webkit-border-radius: 4px;
+}
+
+
